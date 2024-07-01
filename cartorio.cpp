@@ -113,7 +113,8 @@ int main() // chama menu aplicação do Cartório ebac
 		printf("Escolha a opção desejada do menu: \n \n"); 
 		printf("1 - Registrar nomes");
 		printf("\t2 - Consultar nomes");
-		printf("\t3 - Deletar nomes \n");
+		printf("\t3 - Deletar nomes");
+		printf("\t4 - Sair do menu \n");
 		printf("\nOpção: ");
 		//fim do menu
 		
@@ -134,7 +135,12 @@ int main() // chama menu aplicação do Cartório ebac
 				
 			case 3:
 			deletar();
-			break;		
+			break;
+			
+			case 4:
+			printf("Obrigado por utilizar o sistema \n");
+			return 0;
+			break;	
 				
 			default:
 			printf("Essa opcão não está disponivel\n");
